@@ -2,6 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
+  if ((number / 3)/(number / 3) - 1) == 0 && ((number / 5)/(number / 5) - 1) == 0
+    return "FizzBuzz"
   if ((number / 3)/(number / 3) - 1) == 0
     return "Fizz"
   end

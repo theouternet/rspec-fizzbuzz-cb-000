@@ -4,7 +4,8 @@
 def fizzbuzz(number)
   if ((number / 3)/(number / 3) - 1) == 0
     "Fizz"
+  end
   if ((number / 5)/(number / 5) - 1) == 0
     "Buzz"
-end
+  end
 end
